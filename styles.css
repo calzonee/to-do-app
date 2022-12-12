@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #0003c7;
+}
+
+div {
+    border: 3px solid #ffffff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: calc(100% - 40px)
+}
+
+.title{
+    text-align: center;
+}
+
+.tasks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.tasks-todo,
+.tasks-current, 
+.tasks-finished {
+    height: 200px;
+    width: calc(30%);
+}
